@@ -1,0 +1,6 @@
+body { font-family: sans-serif; margin: 0; padding-top: 50px; }
+#navbar { position: fixed; top: 0; width: 100%; background: #333; color: white; padding: 10px; z-index: 100; }
+#navbar ul { display: flex; list-style: none; justify-content: center; gap: 20px; }
+#navbar a { color: white; text-decoration: none; }
+section { padding: 100px 20px; border-bottom: 1px solid #ccc; }
+.card:hover { transform: scale(1.05); transition: 0.3s; } /* Эффект при наведении [cite: 96] */
